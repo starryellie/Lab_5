@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Songs </title>
+<meta name="author" content="Ellie Tzeng">
+<meta name="description" content="page of songs">
+<meta name="page-type" content="Songs"> 
+<style>
+
+body{
+    background-color: black;
+}
+    .class{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(153, 190, 227);
+    size: 100px;
+}
+
+h1 {
+    color: rgb(153, 190, 227); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+</style>
+</head>
+<body>
+    <div>
+        <h1> Songs Playlist </h1>
+        <hr>
+    </div>
+
+    <table>
+        <tr>
+            <td> <img src="img\HarryStyles-albumcover.png" alt="Harry Styles" title="Medicine - Harry Styles" width="300" height="300"></td>
+            <td> <img src="img\Midnights_-_Taylor_Swift.png" alt="Taylor Swift" title="Hits Different - Taylor Swift MP3" width="300" height="300"></td>
+            <td> <img src="img\Midnights_-_Taylor_Swift.png" alt="Taylor Swift" title="Hits Different - Taylor Swift OGG" width="300" height="300"></td>
+            <td> <img src="img\Royal_Blood_-_Typhoons.png" alt="Royal Blood" title="King - Royal Blood" width="300" height="300"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <audio controls> 
+                    <source src="songs\Medicine - Harry Styles (studio version).mp3" id="mp3Source" type="audio/mp3"> 
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="songs\Taylor Swift - Hits Different (Bonus Target Edition).mp3" id="mp3Source" type="audio/mp3">
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="songs\Taylor-Swift-Hits-Different-_Bonus-Target-Edition_.ogg" id="oggSource" type="audio/ogg"> 
+                    Your browser does not support the audio element 
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="songs\Royal Blood- King (Studio VersionB-Side).mp3" id="mp3Source" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

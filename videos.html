@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Videos </title>
+<meta name="author" content="Ellie Tzeng">
+<meta name="description" content="page of videos">
+<meta name="page-type" content="Videos"> 
+<style> 
+
+body{
+    background-color: black;
+}
+
+.class{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(241, 175, 221);
+    size: 100px;
+}
+
+h1 {
+    color: rgb(241, 175, 221); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div>
+    <h1>Video Playlist</h1>
+    <hr>
+</div>
+<table>
+    <tr>
+        <td>
+            <video controls>
+                <source src="videos\boat dog.mp4" id="mp4Source" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </td>
+        <td>
+            <video controls>
+                <source src="videos\MEAP.mp4" id="mp4Source" type="video/mp4">
+                <source src="videos\MEAP.webm" id="webmSource" type="video/webm">
+                <source src="videos\MEAP.ogg" id="oggSource" type="video/ogg">
+                Your browser does not support the video element
+            </video>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
